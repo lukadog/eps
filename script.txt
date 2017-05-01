@@ -1,0 +1,10 @@
+www-data@eqx-jobs2:/tmp$ rm /tmp/adobe_psirt
+
+www-data@eqx-jobs2:/tmp$ identify /tmp/exploit.eps
+identify.im6: `%s' (%d) "gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r72x72" -g100x100  "-sOutputFile=/tmp/magick-syq90fnI--0000001" "-f/tmp/magick-D-rFDaw4" "-f/tmp/magick-T3GC08Eq" @ error/utility.c/SystemCommand/1890.
+identify.im6: `%s' (%d) "gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r72x72" -g100x100  "-sOutputFile=/tmp/magick-syq90fnI--0000001" "-f/tmp/magick-D-rFDaw4" "-f/tmp/magick-T3GC08Eq" -c showpage @ error/utility.c/SystemCommand/1890.
+identify.im6: Postscript delegate failed `/tmp/exploit.eps': No such file or directory @ error/ps.c/ReadPSImage/835.
+
+www-data@eqx-jobs2:/tmp$ ls -l /tmp/adobe_psirt
+-rw-r--r-- 1 www-data www-data 0 Apr 28 00:44 /tmp/adobe_psirt
+
